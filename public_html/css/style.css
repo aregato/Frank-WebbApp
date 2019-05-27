@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-mar-21, 00:46:07
+    Author     : hanne
+*/
+body{
+    zoom:80%;   
+}
+header{
+    background-color: #4b62af; 
+    text-align: center; 
+    border-bottom: 20px solid #f1313d;
+}
+header > div{
+    padding: 10px;
+}
+header > div > a > img{
+    width: 80%;
+    padding: 5px;
+    opacity: 0.95;
+    margin-top: 120px;
+    margin-bottom: 18%;
+    transition: transform .5s;
+}
+header > div > a > img:hover{
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 1.05;
+    
+    /*background-color: #ede73d;
+    border: #f1313d 10px solid; */
+}
+nav{
+    position: fixed;
+    z-index:10;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+nav > div.sideMenu{
+    
+}
+.dispNone{
+    display: none;
+}
+div.sideMenu > div > a.item > img{
+    margin-left: 14%;
+    margin-bottom: 10px;
+}
+nav > div{
+    border: 2px #ede73d solid;
+    border-radius: 50%;
+    background-color: rgba(75, 98, 175, 0.7);
+    width: 40%;
+    padding: 0px;
+}
+nav > div > a{ 
+    width: auto;
+    border-radius: 5px;
+}
+nav > div > a > img{
+    width: 110%;
+    padding: 10px;
+}
+nav > div > a > img:hover{
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 1.1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    /*background-color: #ede73d;
+    border: #f1313d 10px solid; */
+}
+main{
+    border-top: 20px solid #efb046;
+    border-bottom: 20px solid #efb046;
+    background-image: url("../mattios.png");
+    height: 1260px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+main > div > div{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+main > div > div > div.ui.card.mattis{
+    width: 60%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2a2627;
+    text-align: center;
+}
+
+
+div.hidden.content.jass{
+    background-image: url("../jassport2.jpg");
+    width: 100%;
+    height: 100%;
+}
+div.hidden.content.jass > h2{
+    color: white;
+    font-size: 42px;
+    margin-left: -8px;
+    margin-bottom: 10%;
+}
+div.hidden.content.jass > button{
+    width: auto;
+    margin-top: 5%;
+    font-size: 32px;
+}
+div.extra.content{
+    display: inline-block;
+    width: 100%;
+}
+img.mindfellazlogo{
+    width: auto;
+}
+#jassPlay{
+    width: 30%;
+    height: 15%;
+}
+div.ui.basic.modal > div.content > iframe{
+    margin-left: -50%;
+    margin-top: -40px;
+}
+div.ui.basic.modal.contact{
+    margin-top: -5%;
+}
+div.ui.basic.modal.contact > div.ui.icon.header{
+    font-size: 42px;
+}
+div.field.contact > label{
+    color: white !important;
+    font-size: 22px !important;
+}
+div.four.wide.column.jass{
+    margin-top: 105px;
+    margin-left: 5%;
+    width: 20%;
+}
+div.four.wide.column.jass > div.jassFeed {
+    background: rgba(24, 24, 24, 0.7);
+    border-radius: 5px;
+}
+div.eight.wide.column.jass{
+    margin-right: -5%;
+    margin-left: -5%;
+}
+div.extra.content > button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div.extra.content > button.in{
+    background-color: #49769c;
+    color: white;
+}
+div.extra.content > button.fb{
+    background-color: #3b5998;
+    color: white;
+}
+div.extra.content.yout{}
+div.four.wide.column > iframe{
+    width: 100%;
+    margin-top: 20px;
+    
+    text-align: center;
+}
+footer{
+    background-color: #4b62af; 
+    border-top: 20px solid #f1313d;
+    text-align: center;
+}
